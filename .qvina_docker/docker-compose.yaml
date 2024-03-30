@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  qvina:
+    build: .
+    image: qvina-image
+    volumes:
+      - /Users/adam/school/ntu/cadd:/app
+    platform: linux/amd64
+
