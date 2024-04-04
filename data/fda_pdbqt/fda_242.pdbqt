@@ -1,0 +1,14 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S2_2  and  O4_4 
+ROOT
+ATOM      1  O1  ZIN A   1       0.002  -0.004   0.002  0.00  0.00    -0.592 OA
+ATOM      2  S2  ZIN A   1      -0.018   1.467   0.010  0.00  0.00     0.169 S 
+ATOM      3  O3  ZIN A   1       1.363   1.977  -0.000  0.00  0.00    -0.592 OA
+ATOM      4  S5  ZIN A   1      -0.862   2.049   1.494  0.00  0.00     0.069 SA
+ENDROOT
+BRANCH   2   5
+ATOM      5  O4  ZIN A   1      -0.754   1.972  -1.223  0.00  0.00    -0.286 OA
+ATOM      6  H6  ZIN A   1      -0.355   1.696  -2.059  0.00  0.00     0.233 HD
+ENDBRANCH   2   5
+TORSDOF 1

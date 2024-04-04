@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C11_11  and  C13_12 
+REMARK    3  A    between atoms: C13_12  and  N14_13 
+ROOT
+ATOM      1  C3  ZIN A   1       1.141   0.154   1.810  0.00  0.00    -0.021 A 
+ATOM      2  C4  ZIN A   1       2.454   0.038   2.099  0.00  0.00     0.012 A 
+ATOM      3  C5  ZIN A   1       3.586   0.409   1.177  0.00  0.00     0.068 C 
+ATOM      4  N6  ZIN A   1       2.595  -0.468   3.364  0.00  0.00    -0.362 N 
+ATOM      5  C7  ZIN A   1       1.397  -0.687   3.915  0.00  0.00     0.024 A 
+ATOM      6  C8  ZIN A   1       0.431  -0.312   2.988  0.00  0.00     0.041 A 
+ATOM      7  C9  ZIN A   1      -1.003  -0.429   3.270  0.00  0.00     0.168 C 
+ATOM      8  O10 ZIN A   1      -1.850   0.074   2.561  0.00  0.00    -0.292 OA
+ATOM      9  C11 ZIN A   1      -1.352  -1.227   4.518  0.00  0.00     0.089 C 
+ATOM     10  C20 ZIN A   1      -0.382  -0.828   5.634  0.00  0.00     0.020 C 
+ATOM     11  C21 ZIN A   1       1.052  -1.227   5.279  0.00  0.00     0.059 C 
+ATOM     12  H30 ZIN A   1       3.444  -0.642   3.798  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   9  13
+ATOM     13  C13 ZIN A   1      -2.787  -0.914   4.946  0.00  0.00     0.285 C 
+BRANCH  13  14
+ATOM     14  N14 ZIN A   1      -3.140  -1.733   6.113  0.00  0.00     0.093 N 
+ATOM     15  C19 ZIN A   1      -4.544  -1.526   6.497  0.00  0.00     0.298 C 
+ATOM     16  C18 ZIN A   1      -4.851  -2.351   7.750  0.00  0.00     0.198 C 
+ATOM     17  O17 ZIN A   1      -4.558  -3.727   7.493  0.00  0.00    -0.388 OA
+ATOM     18  C16 ZIN A   1      -3.199  -3.965   7.117  0.00  0.00     0.198 C 
+ATOM     19  C15 ZIN A   1      -2.874  -3.157   5.858  0.00  0.00     0.298 C 
+ENDBRANCH  13  14
+ENDBRANCH   9  13
+BRANCH   1  20
+ATOM     20  C2  ZIN A   1       0.536   0.666   0.529  0.00  0.00     0.037 C 
+ATOM     21  C1  ZIN A   1       0.337   2.180   0.629  0.00  0.00     0.010 C 
+ENDBRANCH   1  20
+TORSDOF 3

@@ -13,6 +13,24 @@ HETATM 1559  O2 AROC A 100    21.877  -0.510  11.108  0.56 11.94       O
 HETATM 1560  O2 BROC A 100    21.842   0.352  11.780  0.44 13.69       O
 ```
 
+```
+prepare_receptor -r hiv1.pdb -A hydrogens -o hiv1.pdbqt
+prepare_ligand -l saquinavir.pdb -o saquinavir.pdbqt
+```
+# Vina
+
+```
+receptor = hiv1.pdbqt
+ligand = saquinavir.pdbqt # commneted out when looping over fda molecules
+
+center_x = 21.877
+center_y = -0.510
+center_z = 11.108
+
+size_x = 20
+size_y = 20
+size_z = 20
+```
 
 ## Ideas
 

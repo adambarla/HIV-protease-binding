@@ -1,0 +1,112 @@
+REMARK  26 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N@A_1  and  CA@A_3 
+REMARK       I    between atoms: N@A_1  and  C@A_7 
+REMARK    2  A    between atoms: N@B_2  and  CA@B_4 
+REMARK       I    between atoms: N@B_2  and  C@B_8 
+REMARK    3  A    between atoms: CA@A_3  and  CB@A_11 
+REMARK    4  A    between atoms: CA@A_3  and  C1@A_37 
+REMARK    5  A    between atoms: CA@B_4  and  CB@B_12 
+REMARK    6  A    between atoms: CA@B_4  and  C1@B_38 
+REMARK    7  A    between atoms: CA1@A_5  and  CB1@A_13 
+REMARK    8  A    between atoms: CA1@A_5  and  N2@A_45 
+REMARK    9  A    between atoms: CA1@A_5  and  C9@A_73 
+REMARK   10  A    between atoms: CA1@B_6  and  CB1@B_14 
+REMARK   11  A    between atoms: CA1@B_6  and  N2@B_46 
+REMARK   12  A    between atoms: CA1@B_6  and  C9@B_74 
+REMARK   13  A    between atoms: C@A_7  and  C2@A_43 
+REMARK   14  A    between atoms: C@B_8  and  C2@B_44 
+REMARK   15  A    between atoms: CB@A_11  and  CG@A_15 
+REMARK   16  A    between atoms: CB@B_12  and  CG@B_16 
+REMARK   17  A    between atoms: CB1@A_13  and  CG1@A_17 
+REMARK   18  A    between atoms: CB1@B_14  and  CG1@B_18 
+REMARK   19  A    between atoms: CD@A_19  and  N3@A_53 
+REMARK   20  A    between atoms: CD@B_20  and  N3@B_54 
+REMARK   21  A    between atoms: CM@A_35  and  C9@A_73 
+REMARK   22  A    between atoms: CM@A_35  and  N11@A_77 
+REMARK   23  A    between atoms: CM@B_36  and  C9@B_74 
+REMARK   24  A    between atoms: CM@B_36  and  N11@B_78 
+REMARK       I    between atoms: C1@A_37  and  N2@A_45 
+REMARK       I    between atoms: C1@B_38  and  N2@B_46 
+REMARK       I    between atoms: N3@A_53  and  CC@A_97 
+REMARK       I    between atoms: N3@B_54  and  CC@B_98 
+REMARK   25  A    between atoms: C21@A_79  and  CC@A_97 
+REMARK   26  A    between atoms: C21@B_80  and  CC@B_98 
+ROOT
+HETATM    1  CA1AROC A 100      19.559  -1.049  10.983  0.56 16.18     0.143 C 
+ENDROOT
+BRANCH   1   2
+HETATM    2  CB1AROC A 100      19.888  -2.314  11.792  0.56 13.05     0.053 C 
+BRANCH   2   3
+HETATM    3  CG1AROC A 100      19.089  -3.505  11.321  0.56 10.25    -0.020 A 
+HETATM    4  CD1AROC A 100      17.728  -3.576  11.598  0.56 10.14    -0.004 A 
+HETATM    5  CE1AROC A 100      16.995  -4.656  11.117  0.56 12.62    -0.000 A 
+HETATM    6  CZ AROC A 100      17.620  -5.640  10.370  0.56  9.74    -0.000 A 
+HETATM    7  CE2AROC A 100      18.983  -5.560  10.101  0.56  9.34    -0.000 A 
+HETATM    8  CD2AROC A 100      19.725  -4.494  10.572  0.56  9.78    -0.004 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   9
+HETATM    9  N2 AROC A 100      19.567  -1.387   9.569  0.56 16.41    -0.235 NA
+HETATM   10  C1 AROC A 100      18.626  -0.898   8.761  0.56 17.19     0.274 C 
+HETATM   11  O1 AROC A 100      17.709  -0.198   9.208  0.56 17.30    -0.268 OA
+BRANCH  10  12
+HETATM   12  CA AROC A 100      18.773  -1.291   7.300  0.56 15.75     0.196 C 
+BRANCH  12  13
+HETATM   13  N  AROC A 100      18.279  -2.627   7.045  0.56 14.53    -0.225 NA
+HETATM   14  C  AROC A 100      19.026  -3.599   6.516  0.56 14.88     0.293 C 
+HETATM   15  O  AROC A 100      20.168  -3.421   6.080  0.56 11.59    -0.264 OA
+BRANCH  14  16
+HETATM   16  C2 AROC A 100      18.340  -4.818   6.514  0.56 16.45     0.139 A 
+HETATM   17  N1 AROC A 100      17.031  -4.817   6.879  0.56 19.80    -0.241 NA
+HETATM   18  C8AAROC A 100      16.297  -5.929   6.995  0.56 20.62     0.082 A 
+HETATM   19  C4AAROC A 100      16.898  -7.166   6.721  0.56 22.53     0.018 A 
+HETATM   20  C8 AROC A 100      14.966  -5.835   7.393  0.56 19.99     0.019 A 
+HETATM   21  C4 AROC A 100      18.240  -7.219   6.333  0.56 15.23     0.003 A 
+HETATM   22  C5 AROC A 100      16.146  -8.333   6.845  0.56 26.04     0.002 A 
+HETATM   23  C3 AROC A 100      18.970  -6.034   6.225  0.56 15.37     0.024 A 
+HETATM   24  C6 AROC A 100      14.806  -8.241   7.243  0.56 25.50     0.000 A 
+HETATM   25  C7 AROC A 100      14.217  -7.001   7.516  0.56 21.28     0.002 A 
+ENDBRANCH  14  16
+ENDBRANCH  12  13
+BRANCH  12  26
+HETATM   26  CB AROC A 100      18.041  -0.304   6.442  0.56 17.52     0.126 C 
+BRANCH  26  27
+HETATM   27  CG AROC A 100      18.449  -0.571   5.014  0.56 23.61     0.276 C 
+HETATM   28  ND2AROC A 100      17.556  -0.763   4.077  0.56 28.56    -0.107 N 
+HETATM   29  OD1AROC A 100      19.616  -0.691   4.675  0.56 25.31    -0.269 OA
+ENDBRANCH  26  27
+ENDBRANCH  12  26
+ENDBRANCH  10  12
+ENDBRANCH   1   9
+BRANCH   1  30
+HETATM   30  C9 AROC A 100      20.587   0.083  11.188  0.56 15.26     0.208 C 
+HETATM   31  O2 AROC A 100      21.877  -0.510  11.108  0.56 11.94    -0.219 OA
+BRANCH  30  32
+HETATM   32  CM AROC A 100      20.464   0.886  12.488  0.56 16.21     0.285 C 
+BRANCH  32  33
+HETATM   33  N11AROC A 100      19.421   1.907  12.419  0.56 18.00     0.147 N 
+HETATM   34  C21AROC A 100      18.888   2.287  13.738  0.56 18.25     0.298 C 
+HETATM   35  C31AROC A 100      17.845   3.390  13.594  0.56 19.76     0.043 C 
+HETATM   36  C3AAROC A 100      18.440   4.608  12.931  0.56 21.36     0.004 C 
+HETATM   37  C7AAROC A 100      19.066   4.216  11.543  0.56 19.25     0.034 C 
+HETATM   38  C41AROC A 100      17.355   5.653  12.755  0.56 21.56     0.000 C 
+HETATM   39  C81AROC A 100      20.022   3.051  11.743  0.56 17.88     0.251 C 
+HETATM   40  C71AROC A 100      17.991   3.894  10.518  0.56 20.88     0.002 C 
+HETATM   41  C61AROC A 100      17.072   5.081  10.333  0.56 17.96     0.000 C 
+HETATM   42  C51AROC A 100      16.363   5.298  11.656  0.56 23.07     0.000 C 
+BRANCH  34  43
+HETATM   43  CC AROC A 100      18.242   1.188  14.571  0.56 16.13     0.283 C 
+HETATM   44  N3 AROC A 100      18.721   1.120  15.814  0.56 12.16    -0.240 NA
+HETATM   45  O3 AROC A 100      17.366   0.483  14.069  0.56 15.61    -0.268 OA
+BRANCH  44  46
+HETATM   46  CD AROC A 100      18.334   0.142  16.813  0.56 10.28     0.088 C 
+HETATM   47  C11AROC A 100      19.154   0.456  18.037  0.56  8.16     0.025 C 
+HETATM   48  C22AROC A 100      16.887   0.302  17.198  0.56 11.94     0.025 C 
+HETATM   49  C32AROC A 100      18.633  -1.290  16.365  0.56 10.71     0.025 C 
+ENDBRANCH  44  46
+ENDBRANCH  34  43
+ENDBRANCH  32  33
+ENDBRANCH  30  32
+ENDBRANCH   1  30
+TORSDOF 26

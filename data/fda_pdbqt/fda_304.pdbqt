@@ -1,0 +1,75 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C5_5 
+REMARK    3  A    between atoms: C11_11  and  C12_12 
+REMARK    4  A    between atoms: C12_12  and  O14_14 
+REMARK    5  A    between atoms: O14_14  and  C15_15 
+REMARK    6  A    between atoms: C15_15  and  C16_16 
+REMARK    7  A    between atoms: C16_16  and  N17_17 
+REMARK    8  A    between atoms: N17_17  and  C20_20 
+REMARK    9  A    between atoms: C20_20  and  C21_21 
+REMARK   10  A    between atoms: C27_27  and  C29_28 
+REMARK   11  A    between atoms: C33_32  and  N34_33 
+ROOT
+ATOM      1  C5  ZIN A   1       0.801  -2.021  -1.060  0.00  0.00     0.052 C 
+ATOM      2  C6  ZIN A   1       1.172  -2.597  -2.217  0.00  0.00     0.018 C 
+ATOM      3  C7  ZIN A   1       1.687  -1.738  -3.344  0.00  0.00     0.069 C 
+ATOM      4  N8  ZIN A   1       1.088  -3.952  -2.384  0.00  0.00    -0.362 N 
+ATOM      5  C9  ZIN A   1       0.309  -4.704  -1.548  0.00  0.00     0.018 C 
+ATOM      6  C10 ZIN A   1      -0.098  -6.095  -1.960  0.00  0.00     0.069 C 
+ATOM      7  C11 ZIN A   1      -0.099  -4.216  -0.363  0.00  0.00     0.052 C 
+ATOM      8  C27 ZIN A   1       0.295  -2.839   0.094  0.00  0.00     0.101 C 
+ATOM      9  H44 ZIN A   1       1.583  -4.382  -3.099  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   7  10
+ATOM     10  C12 ZIN A   1      -0.909  -5.019   0.473  0.00  0.00     0.292 C 
+ATOM     11  O13 ZIN A   1      -1.231  -6.137   0.117  0.00  0.00    -0.259 OA
+BRANCH  10  12
+ATOM     12  O14 ZIN A   1      -1.326  -4.544   1.665  0.00  0.00    -0.316 OA
+BRANCH  12  13
+ATOM     13  C15 ZIN A   1      -2.143  -5.408   2.458  0.00  0.00     0.206 C 
+BRANCH  13  14
+ATOM     14  C16 ZIN A   1      -2.514  -4.702   3.764  0.00  0.00     0.261 C 
+BRANCH  14  15
+ATOM     15  N17 ZIN A   1      -3.357  -3.536   3.468  0.00  0.00    -0.069 N 
+ATOM     16  H18 ZIN A   1      -2.882  -2.937   2.808  0.00  0.00     0.279 HD
+ATOM     17  C19 ZIN A   1      -4.631  -3.986   2.893  0.00  0.00     0.270 C 
+BRANCH  15  18
+ATOM     18  C20 ZIN A   1      -3.614  -2.790   4.707  0.00  0.00     0.273 C 
+BRANCH  18  19
+ATOM     19  C21 ZIN A   1      -4.374  -1.529   4.386  0.00  0.00    -0.033 A 
+ATOM     20  C26 ZIN A   1      -5.756  -1.538   4.377  0.00  0.00     0.009 A 
+ATOM     21  C25 ZIN A   1      -6.453  -0.380   4.087  0.00  0.00     0.001 A 
+ATOM     22  C24 ZIN A   1      -5.768   0.785   3.796  0.00  0.00     0.000 A 
+ATOM     23  C23 ZIN A   1      -4.386   0.792   3.800  0.00  0.00     0.001 A 
+ATOM     24  C22 ZIN A   1      -3.689  -0.364   4.095  0.00  0.00     0.009 A 
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  10  12
+ENDBRANCH   7  10
+BRANCH   8  25
+ATOM     25  C29 ZIN A   1       1.373  -2.953   1.142  0.00  0.00    -0.042 A 
+ATOM     26  C37 ZIN A   1       1.159  -2.447   2.411  0.00  0.00     0.044 A 
+ATOM     27  C33 ZIN A   1       2.146  -2.555   3.373  0.00  0.00     0.103 A 
+ATOM     28  C32 ZIN A   1       3.349  -3.161   3.063  0.00  0.00     0.036 A 
+ATOM     29  C31 ZIN A   1       3.565  -3.662   1.793  0.00  0.00     0.003 A 
+ATOM     30  C30 ZIN A   1       2.576  -3.557   0.832  0.00  0.00     0.008 A 
+BRANCH  27  31
+ATOM     31  N34 ZIN A   1       1.915  -2.020   4.733  0.00  0.00    -0.116 N 
+ATOM     32  O35 ZIN A   1       2.785  -2.113   5.580  0.00  0.00    -0.532 OA
+ATOM     33  O36 ZIN A   1       0.855  -1.486   5.006  0.00  0.00    -0.532 OA
+ENDBRANCH  27  31
+ENDBRANCH   8  25
+BRANCH   1  34
+ATOM     34  C3  ZIN A   1       0.893  -0.617  -0.925  0.00  0.00     0.291 C 
+ATOM     35  O4  ZIN A   1      -0.114   0.065  -0.951  0.00  0.00    -0.260 OA
+BRANCH  34  36
+ATOM     36  O2  ZIN A   1       2.100  -0.032  -0.768  0.00  0.00    -0.323 OA
+ATOM     37  C1  ZIN A   1       2.119   1.391  -0.637  0.00  0.00     0.213 C 
+ENDBRANCH  34  36
+ENDBRANCH   1  34
+TORSDOF 11

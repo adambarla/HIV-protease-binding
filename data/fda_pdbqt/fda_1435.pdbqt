@@ -1,0 +1,39 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C4_3 
+REMARK    2  A    between atoms: C2_2  and  N11_10 
+REMARK    3  A    between atoms: C4_3  and  C5_4 
+REMARK    4  A    between atoms: N11_10  and  C14_13 
+REMARK    5  A    between atoms: C14_13  and  C15_14 
+ROOT
+ATOM      1  N11 ZIN A   1      -1.321  -0.448   0.189  0.00  0.00    -0.067 N 
+ATOM      2  H12 ZIN A   1      -1.648   0.099   0.972  0.00  0.00     0.280 HD
+ATOM      3  C13 ZIN A   1      -1.565  -1.873   0.451  0.00  0.00     0.270 C 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C2  ZIN A   1       0.118  -0.224   0.002  0.00  0.00     0.188 C 
+ATOM      5  C1  ZIN A   1       0.378   1.268  -0.221  0.00  0.00     0.040 C 
+BRANCH   4   6
+ATOM      6  C4  ZIN A   1       0.873  -0.692   1.248  0.00  0.00     0.071 C 
+BRANCH   6   7
+ATOM      7  C5  ZIN A   1       2.355  -0.521   1.032  0.00  0.00    -0.056 A 
+ATOM      8  C10 ZIN A   1       2.998   0.605   1.509  0.00  0.00     0.007 A 
+ATOM      9  C9  ZIN A   1       4.358   0.759   1.313  0.00  0.00     0.001 A 
+ATOM     10  C8  ZIN A   1       5.073  -0.209   0.633  0.00  0.00     0.000 A 
+ATOM     11  C7  ZIN A   1       4.428  -1.333   0.152  0.00  0.00     0.001 A 
+ATOM     12  C6  ZIN A   1       3.070  -1.489   0.351  0.00  0.00     0.007 A 
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C14 ZIN A   1      -2.042  -0.042  -1.025  0.00  0.00     0.273 C 
+BRANCH  13  14
+ATOM     14  C15 ZIN A   1      -3.526  -0.156  -0.790  0.00  0.00    -0.033 A 
+ATOM     15  C20 ZIN A   1      -4.231   0.923  -0.290  0.00  0.00     0.009 A 
+ATOM     16  C19 ZIN A   1      -5.593   0.820  -0.079  0.00  0.00     0.001 A 
+ATOM     17  C18 ZIN A   1      -6.249  -0.365  -0.359  0.00  0.00     0.000 A 
+ATOM     18  C17 ZIN A   1      -5.542  -1.445  -0.855  0.00  0.00     0.001 A 
+ATOM     19  C16 ZIN A   1      -4.181  -1.341  -1.070  0.00  0.00     0.009 A 
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 5
