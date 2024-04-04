@@ -6,6 +6,13 @@
 
 I split the molecule into two files `saquinavir.pdb` (the ligand) and `hiv1.pdb` (the hvi-1 proteinase).
 
+I foudnd a `You clicked /obj01//A/ROC100/O2A`
+
+```
+HETATM 1559  O2 AROC A 100    21.877  -0.510  11.108  0.56 11.94       O
+HETATM 1560  O2 BROC A 100    21.842   0.352  11.780  0.44 13.69       O
+```
+
 
 ## Ideas
 
