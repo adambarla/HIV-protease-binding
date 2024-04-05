@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:      -7.0      0.000      0.000
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      17.301   1.003  11.093  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      16.163   0.165  11.241  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      17.281   2.396  11.368  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.487   0.353  12.048  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.366   0.379  13.343  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      19.350  -0.159  14.136  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      17.272   0.935  13.908  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      20.135  -0.559  13.731  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      19.213  -0.130  15.594  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      18.610  -1.451  16.076  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      17.273  -1.178  16.770  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      17.300   0.217  17.398  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      17.828   0.833   9.420  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      17.302  -0.168   8.627  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      17.713  -0.299   7.313  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.656   0.569   6.796  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      19.187   1.568   7.589  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      19.107   0.425   5.365  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      18.773   1.701   8.902  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.7      1.079      1.674
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      18.442   1.471  11.399  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      17.226   2.129  11.730  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      19.721   2.049  11.613  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.434   0.034  12.220  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.733   0.006  13.485  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      18.727  -1.187  14.167  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      19.050   1.150  14.130  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      18.500  -2.009  13.705  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      19.065  -1.218  15.592  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      17.779  -1.240  16.420  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      17.774  -0.051  17.384  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      19.054  -0.068  18.223  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.349   1.091   9.681  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      19.159   1.756   8.781  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      19.089   1.455   7.433  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.203   0.493   6.986  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      17.388  -0.169   7.885  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      18.124   0.167   5.517  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      17.461   0.129   9.233  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.2      1.734      7.425
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      18.467   1.708  11.641  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      19.717   2.383  11.685  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      17.221   2.384  11.558  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.533   0.686  10.340  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.687   1.169   9.141  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      18.741   0.321   8.061  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      18.793   2.503   8.959  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      18.665  -0.637   8.192  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      18.914   0.865   6.712  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      17.682   0.533   5.868  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      17.888  -0.814   5.172  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      19.344  -0.935   4.715  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.393   0.704  13.087  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      17.688   1.137  14.194  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      17.626   0.349  15.328  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.277  -0.871  15.357  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      18.987  -1.303  14.252  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      18.213  -1.729  16.593  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      19.045  -0.515  13.117  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.2      1.590      7.476
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      17.290   0.593  11.975  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      17.320   2.003  11.803  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      16.124  -0.191  11.763  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.458  -0.025  10.978  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.321   0.058   9.687  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      19.290  -0.454   8.858  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      17.226   0.650   9.160  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      20.076  -0.879   9.236  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      19.135  -0.361   7.405  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      19.277  -1.753   6.786  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      19.037  -1.668   5.277  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      19.363  -0.255   4.788  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      17.803   0.283  13.632  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      17.818   1.311  14.555  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      18.217   1.068  15.856  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.607  -0.204  16.232  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      18.597  -1.232  15.308  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      19.045  -0.469  17.649  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      18.195  -0.989  14.008  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.2      5.787      6.992
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      18.625  -1.134   4.884  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      20.017  -1.218   4.612  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      17.690  -0.561   3.982  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.111  -2.681   5.172  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.890  -3.522   5.787  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      18.464  -4.806   6.026  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      20.119  -3.132   6.192  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      17.582  -5.086   5.736  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      19.342  -5.752   6.719  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      18.778  -6.045   8.110  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      19.683  -5.415   9.171  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      19.122  -4.049   9.574  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.467  -0.243   6.396  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      17.603  -0.692   7.376  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      17.482   0.004   8.565  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.221   1.155   8.768  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      19.081   1.608   7.787  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      18.086   1.916  10.062  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      19.205   0.909   6.600  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.2      2.417      7.650
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      18.506  -1.693  11.453  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      17.632  -2.809  11.357  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      19.904  -1.778  11.216  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      17.923  -0.551  10.405  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      17.986  -0.754   9.122  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      17.502   0.193   8.252  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      18.527  -1.896   8.644  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      17.114   1.013   8.594  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      17.574  -0.035   6.807  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      18.731   0.775   6.219  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      19.204   0.121   4.919  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      18.170  -0.910   4.461  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.316  -1.050  13.082  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      18.916  -1.687  14.151  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      18.771  -1.180  15.430  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.017  -0.041  15.638  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      17.412   0.595  14.570  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      17.855   0.510  17.032  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      17.561   0.090  13.292  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.1      5.998      8.738
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      19.286  -1.973   5.486  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      19.955  -3.060   6.109  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      19.738  -1.369   4.282  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      17.735  -2.479   5.202  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      17.502  -3.388   4.302  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      16.216  -3.808   4.066  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      18.526  -3.920   3.598  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      15.481  -3.427   4.570  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      15.954  -4.832   3.051  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      15.646  -6.164   3.739  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      15.037  -5.897   5.117  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      13.613  -6.456   5.164  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      19.202  -0.687   6.687  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      19.344  -0.983   8.029  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      19.283   0.026   8.972  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      19.072   1.332   8.572  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      18.924   1.630   7.230  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      19.002   2.432   9.599  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      18.990   0.620   6.287  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.0      3.351      5.912
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      18.926  -1.191  13.235  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      19.817  -1.574  14.273  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      17.615  -0.701  13.478  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      19.706  -0.025  12.356  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      19.084   0.587  11.391  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      19.731   1.554  10.661  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      17.801   0.272  11.108  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      20.652   1.781  10.865  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      19.031   2.243   9.575  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      19.512   1.696   8.230  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      18.489   0.693   7.691  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      19.022  -0.729   7.875  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.746  -2.598  12.190  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      17.488  -3.002  11.785  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      17.346  -4.104  10.961  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      18.463  -4.805  10.550  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      19.722  -4.405  10.958  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      18.310  -6.008   9.655  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      19.863  -3.301  11.779  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.8      3.962      5.461
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  N5_5 
+REMARK       I    between atoms: N5_5  and  C6_6 
+REMARK    4  A    between atoms: N8_8  and  S9_9 
+REMARK    5  A    between atoms: S9_9  and  C12_12 
+ROOT
+ATOM      1  S9  ZIN A   1      19.497  -0.463  10.475  0.00  0.00     0.286 S 
+ATOM      2  O10 ZIN A   1      20.394  -0.527  11.575  0.00  0.00    -0.198 OA
+ATOM      3  O11 ZIN A   1      19.879  -0.775   9.143  0.00  0.00    -0.198 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  N8  ZIN A   1      18.231  -1.463  10.846  0.00  0.00    -0.115 NA
+ATOM      5  C6  ZIN A   1      18.451  -2.712  11.135  0.00  0.00     0.284 C 
+ATOM      6  N5  ZIN A   1      17.400  -3.542  11.442  0.00  0.00    -0.352 N 
+ATOM      7  O7  ZIN A   1      19.714  -3.193  11.134  0.00  0.00    -0.149 OA
+ATOM      8  H28 ZIN A   1      16.494  -3.197  11.443  0.00  0.00     0.163 HD
+BRANCH   6   9
+ATOM      9  C4  ZIN A   1      17.649  -4.948  11.768  0.00  0.00     0.123 C 
+BRANCH   9  10
+ATOM     10  C3  ZIN A   1      17.002  -5.839  10.705  0.00  0.00     0.019 C 
+BRANCH  10  11
+ATOM     11  C2  ZIN A   1      18.012  -6.117   9.589  0.00  0.00    -0.003 C 
+ATOM     12  C1  ZIN A   1      17.358  -5.854   8.231  0.00  0.00     0.005 C 
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   6   9
+ENDBRANCH   1   4
+BRANCH   1  13
+ATOM     13  C12 ZIN A   1      18.869   1.182  10.441  0.00  0.00     0.081 A 
+ATOM     14  C18 ZIN A   1      18.996   1.948   9.297  0.00  0.00     0.026 A 
+ATOM     15  C17 ZIN A   1      18.500   3.238   9.268  0.00  0.00     0.008 A 
+ATOM     16  C15 ZIN A   1      17.883   3.765  10.388  0.00  0.00    -0.062 A 
+ATOM     17  C14 ZIN A   1      17.760   3.002  11.534  0.00  0.00     0.008 A 
+ATOM     18  C16 ZIN A   1      17.345   5.172  10.358  0.00  0.00     0.048 C 
+ATOM     19  C13 ZIN A   1      18.253   1.711  11.561  0.00  0.00     0.026 A 
+ENDBRANCH   1  13
+TORSDOF 5
+ENDMDL
