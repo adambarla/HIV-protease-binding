@@ -1,0 +1,48 @@
+title               =  1OMB simulation
+integrator          =  md;steep
+define              =  -DPOSRES
+
+; general control
+constraints         =  hbonds
+emtol               =  100.0
+emstep              =  0.005
+dt                  =  0.002      ; in unit of ps !
+nsteps              =  10000      ; total 20  ps
+nstcomm             =  1
+
+; nonbonded control
+nstlist             =  5
+ns_type             =  grid
+rlist               =  0.9
+rcoulomb            =  1.2
+rvdw                =  1.2
+coulombtype         =  PME
+fourierspacing      =  0.12
+pme_order           =  4
+
+; output control
+nstxout             =  0
+nstxtcout           =  500
+nstvout             =  0
+nstfout             =  0
+nstlog              =  500
+nstenergy           =  500
+
+; temperature control
+Tcoupl              =  v-rescale
+tc-grps             =  Protein Lig SOL  
+tau_t               =  0.1   0.1  0.1 
+ref_t               =  300   300  300 
+
+; pressure control
+Pcoupl              = berendsen
+Pcoupltype          = isotropic
+tau_p               =  0.4
+compressibility     =  4.6e-5
+ref_p               =  1.0
+
+; Generate velocites  at 300 K.
+gen_vel             =  yes;no
+gen_temp            =  300
+gen_seed            =  -1
+
