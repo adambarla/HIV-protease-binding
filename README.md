@@ -17,7 +17,7 @@ HETATM 1560  O2 BROC A 100    21.842   0.352  11.780  0.44 13.69       O
 prepare_receptor -r hiv1.pdb -A hydrogens -o hiv1.pdbqt
 prepare_ligand -l saquinavir.pdb -o saquinavir.pdbqt
 ```
-# Vina
+### Vina
 
 ```
 receptor = hiv1.pdbqt
@@ -30,6 +30,23 @@ center_z = 11.108
 size_x = 20
 size_y = 20
 size_z = 20
+```
+
+### Force field
+
+```
+antechamber -i data/saquinavir_hydrogens.pdb -fi pdb -o data/saquinavir_hydrogens.mol2 -fo mol2 -c bcc -s 2 -nc 0 -m 1
+parmchk2 -i data/saquinavir_hydrogens.mol2 -f mol2 -o data/saquinavir_hydrogens.frcmod
+cp data/saquinavir_hydrogens.frcmod lig.frcmod
+cp data/saquinavir_hydrogens.mol2 lig.mol2
+tleap -f configs/tleaprc.ff14SB_lig
+python scripts/parmed_amber2gmx.py lig
+```
+
+```
+cp data/hiv1.pdb pro.pdb
+tleap -f configs/tleaprc.ff14SB_protein
+python scripts/parmed_amber2gmx.py pro
 ```
 
 ## Ideas
