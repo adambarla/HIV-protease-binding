@@ -14,11 +14,11 @@
 ;     ../scripts/parmed_amber2gmx.py lig
 ;
 
-[ defaults ]
+;[ defaults ]
 ; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
 1               2               yes             0.5          0.83333333  
 
-[ atomtypes ]
+;[ atomtypes ]
 ; name    at.num    mass    charge ptype  sigma      epsilon
 c3             6  12.010000  0.00000000  A     0.33996695      0.4577296
 os             8  16.000000  0.00000000  A     0.30000123        0.71128
@@ -734,10 +734,3 @@ ZIN          3
      18      7     19     43     4  180.0000771  4.6024000  2
      21      6     20     44     4  180.0000771  4.6024000  2
 
-[ system ]
-; Name
-Generic title
-
-[ molecules ]
-; Compound       #mols
-ZIN                  1
