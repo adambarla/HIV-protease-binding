@@ -67,7 +67,7 @@ o              8  16.000000  0.00000000  A     0.29599219        0.87864
 h1             1   1.008000  0.00000000  A      0.2471353      0.0656888
 ha             1   1.008000  0.00000000  A     0.25996425        0.06276
 ho             1   1.008000  0.00000000  A              0              0
-c             1   1.008000  0.00000000  A     0.26495328      0.0656888
+hc             1   1.008000  0.00000000  A     0.26495328      0.0656888
 
 [ moleculetype ]
 ; Name            nrexcl
@@ -17348,13 +17348,16 @@ system1          3
 
 [ system ]
 ; Name
-Generic title
+Generic title in water
 
 #include "lig.top"
-#include "configs/nacl.itp"
-#include "configs/tip3p.itp"
+#include "../configs/nacl.itp"
+#include "../configs/tip3p.itp"
 
 [ molecules ]
 ; Compound       #mols
 system1              2
 ZIN                  1
+SOL         15425
+NA               47
+CL               51
