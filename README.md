@@ -1,76 +1,31 @@
-# HIV-proteinase-binding
+# HIV-1 Protease Molecular Docking and Molecular Dynamics Simulation
 
-## Steps
+Molecular docking is a computational technique used to predict the binding mode of a ligand to a protein target.
+It is a crucial step in drug discovery, as it can help identify potential drug candidates.
+This repository contains files needed to perform molecular docking and molecular dynamics simulations on a dataset of ligands against a protein target.
+Around two thousand ligands were docked against the [HIV-1 protease variant G48T/L89M](https://www.rcsb.org/structure/4qgi) protein (seen below).
 
-### Preparation of the molecules
+![HIV-1 protease variant G48T/L89M](report/figures/hiv1_nglview.png)
 
-I split the molecule into two files `saquinavir.pdb` (the ligand) and `hiv1.pdb` (the hvi-1 proteinase).
+**HIV-1 protease** is an enzyme that plays a crucial role in the replication of the human immunodeficiency virus (HIV).
+It cleaves the newly synthesized polyproteins at into mature protein components of an HIV viron, the infectious form of a virus outside the host cell.
 
-I foudnd a `You clicked /obj01//A/ROC100/O2A`
+The docking was performed using [QuickVina](https://github.com/QVina) and the ligand with the best fit was selected for molecular dynamics simulation done using [Gromacs](https://github.com/gromacs).
+The simulation was carried a second time, this time with [Saquinavir](https://en.wikipedia.org/wiki/Saquinavir), a known inhibitor of the HIV-1 protease. 
 
-```
-HETATM 1559  O2 AROC A 100    21.877  -0.510  11.108  0.56 11.94       O
-HETATM 1560  O2 BROC A 100    21.842   0.352  11.780  0.44 13.69       O
-```
+![Saquinavir](report/figures/saquinavir_nglview.png)
 
-```
-prepare_receptor -r hiv1.pdb -A hydrogens -o hiv1.pdbqt
-prepare_ligand -l saquinavir.pdb -o saquinavir.pdbqt
-```
-### Vina
+Both simulations were compared in terms of their Root-Mean-Square Deviation (RMSD) and other properties to determine the quality of the fit and the potential of the new ligand as a drug candidate.
 
-```
-receptor = hiv1.pdbqt
-ligand = saquinavir.pdbqt # commneted out when looping over fda molecules
+For more information, please refer to the [report](report/report.pdf).
 
-center_x = 21.877
-center_y = -0.510
-center_z = 11.108
+### Possible future work
 
-size_x = 20
-size_y = 20
-size_z = 20
-```
+- Test mutated protease to see if the Saquinavir inhibitor binds.
 
-### Force field
+### References
 
-```
-antechamber -i data/saquinavir_hydrogens.pdb -fi pdb -o data/saquinavir_hydrogens.mol2 -fo mol2 -c bcc -s 2 -nc 0 -m 1
-parmchk2 -i data/saquinavir_hydrogens.mol2 -f mol2 -o data/saquinavir_hydrogens.frcmod
-cp data/saquinavir_hydrogens.frcmod lig.frcmod
-cp data/saquinavir_hydrogens.mol2 lig.mol2
-tleap -f configs/tleaprc.ff14SB_lig
-python scripts/parmed_amber2gmx.py lig
-```
-
-```
-cp data/hiv1.pdb pro.pdb
-tleap -f configs/tleaprc.ff14SB_protein
-python scripts/parmed_amber2gmx.py pro
-```
-
-## Ideas
-
-Test mutated proteinase to see if the inhibitor binds.
-
----
-
-
-Ensure you are in MD conda environment.
-1.	Ligand preparation
-        -	Convert from .pdbqt to .pdb. Then rename file to `ligand.pdb`
-        ```bash
-        babel -ipdbqt fda_20_out.pdbqt -opdb -O fda_1_out.pdb -m -h
-        mv fda_20_out1.pdb ligand.pdb
-        antechamber -i ligand.pdb -fi pdb -o lig.mol2 -fo mol2 -c bcc -s 2 -nc 0 -m 1
-       parmchk2 -i lig.mol2 -f mol2 -o lig.frcmod
-       tleap -f tleaprc.ff14SB_lig
-       python parmed_amber2gmx.py lig
-        ```
-        - `antechamber -i ligand.pdb -fi pdb -o lig.mol2 -fo mol2 -c bcc -s 2 -nc 0 -m 1`
-        - `parmchk2 -i lig.mol2 -f mol2 -o lig.frcmod`
-        - `tleap -f tleaprc.ff14SB_lig`
-        - `python parmed_amber2gmx.py lig`
-2.	Protein preparation. Ensure protein is not protonated. Name protein to pro.pdb.
-        - tleap -f tleaprc.ff14SB_protein
-        - python parmed_amber2gmx.py pro
+- [QuickVina](https://github.com/QVina) for molecular docking
+- [Gromacs](https://github.com/gromacs) for MD simulations
+- [NGLView](https://github.com/nglviewer) for visualizations
+- [RCSB](https://www.rcsb.org/structure/4qgi) to download HIV-1 protease variant G48T/L89M complexed with Saquinavir
