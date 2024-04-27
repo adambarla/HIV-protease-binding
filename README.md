@@ -23,6 +23,10 @@ Both simulations were compared in terms of their Root-Mean-Square Deviation (RMS
 
 For more information, please refer to the [report](report/report.pdf).
 
+<p align="center">
+<img src="report/figures/md.gif" width="400" alt="MD simulation visualization">
+</p>
+
 ### Possible future work
 
 - Test mutated protease to see if the Saquinavir inhibitor binds.
@@ -33,3 +37,8 @@ For more information, please refer to the [report](report/report.pdf).
 - [Gromacs](https://github.com/gromacs) for MD simulations
 - [NGLView](https://github.com/nglviewer) for visualizations
 - [RCSB](https://www.rcsb.org/structure/4qgi) to download HIV-1 protease variant G48T/L89M complexed with Saquinavir
+
+
+
+
+
