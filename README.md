@@ -30,7 +30,7 @@ For more information, please refer to the [report](report/report.pdf).
 ### Possible future work
 
 - Test mutated protease to see if the Saquinavir inhibitor binds.
-
+ 
 ### References
 
 - [QuickVina](https://github.com/QVina) for molecular docking
