@@ -43,7 +43,8 @@
         top: (55pt / 279mm) * 100%,
         bottom: (64pt / 279mm) * 100%,
       )
-    }
+    },
+    numbering: "1"
   )
 
   // Configure equation numbering and spacing.
