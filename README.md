@@ -10,7 +10,7 @@ Around two thousand ligands were docked against the [HIV-1 protease variant G48T
 </p>
 
 **HIV-1 protease** is an enzyme that plays a crucial role in the replication of the human immunodeficiency virus (HIV).
-It cleaves the newly synthesized polyproteins into mature protein components of an HIV viron, the infectious form of a virus outside the host cell.
+It cleaves the newly synthesized polyproteins into mature protein components of an HIV virion, the infectious form of a virus outside the host cell.
 
 The docking was performed using [QuickVina](https://github.com/QVina) and the ligand with the best fit was selected for molecular dynamics simulation done using [Gromacs](https://github.com/gromacs).
 The simulation was carried a second time, this time with [Saquinavir](https://en.wikipedia.org/wiki/Saquinavir) (seen below), a known inhibitor of the HIV-1 protease. 
